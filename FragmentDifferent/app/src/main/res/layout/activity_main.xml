@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="7dp"
+    android:orientation="vertical"
+    android:id="@+id/one"
+    tools:context="com.example.vs00481543.fragmentdifferent.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment1"
+        class="com.example.vs00481543.fragmentdifferent.FragmentClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+    <fragment
+        android:id="@+id/fragmentBot"
+        class="com.example.vs00481543.fragmentdifferent.FragBot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
