@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Bound Service</string>
+    <string name="btn_msg">Show Current Date</string>
+</resources>
